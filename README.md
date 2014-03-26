@@ -29,7 +29,7 @@ More Control:
 
 - Check out index.html. This will list more verbos html which gives you more control. 
 
-
+## License
 
 CirclePlayer is dual-licensed under the GPL and MIT licenses
 
