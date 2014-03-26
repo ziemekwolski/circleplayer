@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.5, user-scalable=no">
+		<title>jPlayer - Circle Player</title>
+
+		<link rel="stylesheet" href="css/not.the.skin.css">
+		<link rel="stylesheet" href="circle.skin/circle.player.css">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.transform2d.js"></script>
+		<script type="text/javascript" src="js/jquery.grab.js"></script>
+		<script type="text/javascript" src="js/jquery.jplayer.js"></script>
+		<script type="text/javascript" src="js/mod.csstransforms.min.js"></script>
+		<script type="text/javascript" src="js/circle.player.js"></script>
+		<script type="text/javascript" src="js/simple.players.js"></script>
+		<!--<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>-->
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+
+			/*
+			 * Instance CirclePlayer inside jQuery doc ready
+			 *
+			 * CirclePlayer(jPlayerSelector, media, options)
+			 *   jPlayerSelector: String - The css selector of the jPlayer div.
+			 *   media: Object - The media object used in jPlayer("setMedia",media).
+			 *   options: Object - The jPlayer options.
+			 *
+			 * Multiple instances must set the cssSelectorAncestor in the jPlayer options. Defaults to "#cp_container_1" in CirclePlayer.
+			 */
+
+			 new initSimplePlayer('.add-jplayer');
+		});
+		</script>
+	</head>
+	<body>
+		<!-- Needed to hold the players -->
+		<div id="simple-jplayer"></div>
+		<div class="prototype-wrapper"> <!-- A wrapper to emulate use in a webpage and center align -->
+
+			<!-- Example of adding a player -->
+			Player 1
+			<div class="add-jplayer" data-m4a="http://www.jplayer.org/audio/m4a/Miaow-04-Lismore.m4a" data-oga="http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"></div>
+			Player 2
+			<div class="add-jplayer" data-m4a="http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a" data-oga="http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"></div>
+
+		</div>
+	</body>
+</html>

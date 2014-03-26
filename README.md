@@ -1,3 +1,5 @@
+# Jplayer CirclePlayer
+
 ![CirclePlayer](https://github.com/maboa/circleplayer/raw/master/screencaps/circleplayer.png)
  
 CirclePlayer is a demo intended to showcase the jQuery HTML5 Media Library jPlayer
@@ -16,6 +18,18 @@ Note the progress bar will not function correctly in Opera 11 due to a JIT compi
 The demo's current look is heavily inspired by [http://forrst.com/posts/Untitled-CJz](http://forrst.com/posts/Untitled-CJz)       
 
 Thanks to [Jussi Kalliokoski](http://twitter.com/quinnirill) for contributing.
+
+## Getting Started
+
+Quick and Easy:
+
+- Look at simple-index.htm file. Includes examples on how to add players quickly using the simple.players.js
+
+More Control:
+
+- Check out index.html. This will list more verbos html which gives you more control. 
+
+
 
 CirclePlayer is dual-licensed under the GPL and MIT licenses
 
